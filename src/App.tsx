@@ -55,7 +55,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <Router>
+    <Router basename="/landing-page">
       <ScrollToTop />
       <CustomCursor />
       {isLoading ? (
